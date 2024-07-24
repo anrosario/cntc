@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Brochure Printable Version</title>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-03QHFE1MZP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-03QHFE1MZP');
+</script>
+	
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NL7FGL4B');</script>
+<!-- End Google Tag Manager -->
+	
+<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+<link rel="stylesheet" type="text/css" href="../css/animate.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+</head>
+
+<body style="overflow: hidden">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL7FGL4B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	
+<iframe src="brochure-print.pdf" width="650px" height="460px" frameborder="0" allowfullscreen=""></iframe>
+	
+
+
+<!-- JS --> 
+
+<script type="text/javascript" src="../images/favicon.png"></script> 
+<script type="text/javascript" src="../js/jquery.nav.js"></script> 
+<script type="text/javascript">
+	$(document).ready(function() {
+	  $('nav').onePageNav();
+	});
+</script> 
+<script type="text/JavaScript" src="../js/jquery.scroll_to.js"></script> 
+<script type="text/javascript" src="../js/jquery.snapscroll.min.js"></script> 
+<script type="text/javascript">
+	$(function() {
+	  $(".main").snapscroll();
+	});
+</script> 
+<script type="text/javascript" src="../js/wow.min.js"></script> 
+<script>
+	wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+	</script> 
+<script>
+var isMouseDown,initX,initY,height = draggable.offsetHeight,width = draggable.offsetWidth;
+
+draggable.addEventListener('mousedown', function(e) {
+  isMouseDown = true;
+  document.body.classList.add('no-select');
+  initX = e.offsetX;
+  initY = e.offsetY;
+})
+
+document.addEventListener('mousemove', function(e) {
+  if (isMouseDown) {
+    var cx = e.clientX - initX,
+        cy = e.clientY - initY;
+    if (cx < 0) {
+      cx = 0;
+    }
+    if (cy < 0) {
+      cy = 0;
+    }
+    if (window.innerWidth - e.clientX + initX < width) {
+      cx = window.innerWidth - width;
+    }
+    if (e.clientY > window.innerHeight - height+ initY) {
+      cy = window.innerHeight - height;
+    }
+    draggable.style.left = cx + 'px';
+    draggable.style.top = cy + 'px';
+  }
+})
+
+draggable.addEventListener('mouseup', function() {
+  isMouseDown = false;
+  document.body.classList.remove('no-select');
+})
+
+</script>
+		<script src="../js/shareButtons.js"></script>
+</body>
+</html>
